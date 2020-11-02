@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="title">
+            <h1>Edgecode academy survey form</h1>
+            <p id="description">Thank you for taking time to help us increase the platform</p>
+        </div>
+        <div class="form">
+            <form id=survey-form>
+                <label id="name-label" for="html">Name</label>
+                <br>
+                <input type="text" id="name" placeholder=" Enter your name ">
+
+                <br>
+                <label id="email-label" for="html">Email</label>
+                <br>
+                <input type="email" id="email" placeholder=" Enter your email ">
+
+                <br>
+                <label id="number-label" for="html">Age(optional)</label>
+                <br>
+                <input type="number" id="number" placeholder="Age" min="18" max="25">
+
+                <br><br>
+                <label for="">Which option best describe your currentrole?</label>
+                <br>
+                <select name="" id="dropdown" placeholder="Select from one of the options">
+          <br>
+          <option value="" disabled selected hidden>Select from one of the options </option>
+          <option value="student">Challenges </option>
+          <option value="Full Time Job">Full Time Job </option>
+          <option value="Full Time Leaner">Full Time Leaner </option>
+          <option value="Prefer not to say">Prefer not to say</option>
+          <option value="others">others </option>
+
+
+
+        </select>
+                <br>
+
+                <input type="radio" name="Definitely" class="radio">
+                <label for="">Definitely</label>
+                <br>
+                <input type="radio" name="Maybe" id="">
+                <label for="">Maybe</label>
+                <br>
+                <input type="radio" name="Not sure" id="">
+                <label for="">Not sure</label>
+                <br>
+
+                <label for="">What is your Favourite feature of Edge Code?</label>
+                <br>
+                <select name="" id="dropdown" placeholder="">
+          <br>
+          <option value="" disabled selected hidden>Select from one of the options </option>
+
+          <option value="Challenges">Challenges </option>
+          <option value="Projects">Projects </option>
+          <option value="Community">Community </option>
+          <option value="Open source">Open source</option>
+        </select>
+                <br>
+
+                <input type="checkbox" value="Front-end projects " id="">
+                <label for="">Front-end projects </label>
+                <br>
+                <input type="checkbox" value="Back-end projects" id="">
+                <label for="">Back-end projects</label>
+                <br>
+                <input type="checkbox" value="Data-visualization" id="">
+                <label for="">Data-visualization</label>
+                <br>
+                <input type="checkbox" value="Challenges" id="">
+                <label for="">Challenges</label>
+                <br>
+                <input type="checkbox" value="Open source community" id="">
+                <label for="">Open-source community</label>
+                <br>
+                <input type="checkbox" value="Getter help rooms" id="getter">
+                <label for="">Getter help rooms</label>
+                <br>
+
+                <label id="text-label">Any comments or Suggestions?</label>
+                <br>
+                <textarea name="textarea" id="" cols="30" rows="10" placeholder="Enter comments here..."></textarea>
+                <br>
+                <button type="submit">Submit</button>
+
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
